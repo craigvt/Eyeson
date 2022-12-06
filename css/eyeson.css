@@ -257,7 +257,7 @@ hr {
 	Back to top button
 ========================= */
 
-#scroll-top{
+#scroll-top {
     width: 40px; 
     height: 40px;
     line-height: 20px;
@@ -276,7 +276,7 @@ hr {
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
-#scroll-top:hover{
+#scroll-top:hover {
     text-decoration: none;
     background: #e07117;
     color: #fff;
@@ -294,11 +294,15 @@ hr {
     background-size: cover;
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: center;
-    padding: 200px 15px;
+    padding: 120px 15px;
 }
 .hero-copy h2, .hero-copy h3, .hero-copy p {
     color: #fff;
     text-align: center;
+}
+.hero-copy h2 {
+    font-size: 52px;
+    line-height: 60px;
 }
 .hero-copy h3 {
     font-family: 'Branding-Medium';
